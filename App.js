@@ -1,20 +1,24 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { useFonts } from 'expo-font';
+import AppLoading from 'expo-app-loading';
+import TaskList from './src/';
 
-export default function App() {
+
+export default function App ()  {
+const [fontsLoaded] = useFonts({
+'Nunito400Regular': require('./assets/fonts/Nunito400Regular.ttf'),
+});
+if (!fontsLoaded) {
+return (
+<AppLoading />
+)
+
+}else{
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+<TaskList />
+)
+
+    
+  }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
