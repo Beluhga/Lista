@@ -1,7 +1,7 @@
 import React from 'react';
 import { useFonts } from 'expo-font';
 import AppLoading from 'expo-app-loading';
-import TaskList from './src/';
+import Navigator from './components/Navigator';
 
 
 export default function App ()  {
@@ -15,7 +15,7 @@ return (
 
 }else{
   return (
-<TaskList />
+<Navigator />
 )
 
     

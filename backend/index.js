@@ -12,6 +12,6 @@ consign()
 
 app.db = db
 
-app.listen(8080, () => {
+app.listen(3000, () => {
     console.log('Backend executando...')
 })
