@@ -8,7 +8,8 @@
 
 Lista de Tarefas é uma aplicação Mobile.
 
-A aplicação consiste em uma agenda/lista de tarefas que guarda a data, tarefa e as que seram feitas durante o mes, que pode ser ocultada as tarefas que ja foram feitas, e que pode ser logado no modo online.
+A aplicação consiste em uma agenda/lista de tarefas que guarda a data, tarefa e as tarefas que serão feitas durante o mês, que pode ser ocultada nas tarefas que já foram feitas, e que pode ser logado no modo online.
+
 
 ## Layout mobile
 ![20220321_231037](https://user-images.githubusercontent.com/82901722/159404801-272ca855-976a-408a-bff2-448992ff6cc5.gif)
