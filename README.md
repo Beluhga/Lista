@@ -17,7 +17,10 @@ A aplicação consiste em uma agenda/lista de tarefas que guarda a data, tarefa 
 
 # Tecnologias utilizadas
 ## Back end
-- Em processo...
+- JavaScript
+- Node.js
+- Express
+- PostgreSQL
 ## Front end
 - JavaScript
 - React Native
