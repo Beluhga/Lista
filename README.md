@@ -12,7 +12,7 @@ A aplicação consiste em uma agenda/lista de tarefas que guarda a data, tarefa 
 
 
 ## Layout mobile
-![20220321_231037](https://user-images.githubusercontent.com/82901722/159404801-272ca855-976a-408a-bff2-448992ff6cc5.gif)
+![20220405_182506](https://user-images.githubusercontent.com/82901722/161854775-802638dc-797a-43f6-a7d5-594625134337.gif)
 
 
 # Tecnologias utilizadas
