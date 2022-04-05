@@ -36,7 +36,7 @@ git clone
 cd backend
 
 # executar o projeto
-./mvnw spring-boot:run
+npm start
 ```
 
 ## Mobile
